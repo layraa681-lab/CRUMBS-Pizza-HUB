@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Crumbs Pizza Hub</title>
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #fff6e8;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: #d32f2f;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: 900;
+            letter-spacing: 2px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .tagline {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #ffebee;
+            margin-top: 8px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        .highlight {
+            color: #d32f2f;
+            font-weight: 700;
+        }
+        .menu-section {
+            margin-top: 40px;
+            border-radius: 15px;
+            padding: 20px;
+            background: #fff3f3;
+            box-shadow: 0 8px 20px rgba(211, 47, 47, 0.2);
+        }
+        h2 {
+            text-align: center;
+            color: #d32f2f;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 900;
+            letter-spacing: 4px;
+        }
+        .menu-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 30px;
+        }
+        .menu-card {
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(211,47,47,0.15);
+            width: 280px;
+            padding: 20px;
+            transition: transform 0.3s ease;
+        }
+        .menu-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 30px rgba(211, 47, 47, 0.3);
+        }
+        .menu-card h3 {
+            color: #d32f2f;
+            margin-bottom: 15px;
+            font-weight: 700;
+            font-size: 1.3rem;
+            border-bottom: 2px solid #d32f2f;
+            padding-bottom: 6px;
+        }
+        ul {
+            list-style-type: none;
+            font-size: 1rem;
+        }
+        ul li {
+            margin-bottom: 10px;
+            padding-bottom: 6px;
+            border-bottom: 1px dotted #d32f2f;
+            display: flex;
+            justify-content: space-between;
+        }
+        ul li span.price {
+            font-weight: 700;
+            color: #b71c1c;
+        }
+        footer {
+            background: #d32f2f;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .contact-info p {
+            margin: 10px 0;
+           
